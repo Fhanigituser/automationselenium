@@ -22,7 +22,7 @@ public class test150 {
 		driver=new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
-		Thread.sleep(3000);	
+		Thread.sleep(5000);	
 		
 	}
 	@Test
