@@ -15,11 +15,13 @@ public class test160 {
 		driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
+		
 	}
 	@Test
 	public void enterdata()
 	{
-		driver.findElement(By.xpath("//input[@class='gLFyf']")).sendKeys(Keys.ENTER,"hello world");		
+		driver.findElement(By.xpath("//input[@class='gLFyf']")).sendKeys(Keys.ENTER,"hello world");
+		driver.findElement(By.xpath("//input[@class='gLFyf']")).sendKeys(Keys.ENTER,"hello world");
 	}
 
 }
